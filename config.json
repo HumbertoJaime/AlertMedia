@@ -1,0 +1,4 @@
+{
+    "base_url": "https://www.amazon.com.mx",
+    "driver_path": "/usr/local/bin/chromedriver"
+}
