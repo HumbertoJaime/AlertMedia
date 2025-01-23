@@ -18,6 +18,5 @@ def driver():
 
 @pytest.fixture(scope="module")
 def open_amazon(driver):
-    # Carga la página de Amazon
     driver.get(config["base_url"])
     return HomePage(driver)  
